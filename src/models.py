@@ -29,6 +29,7 @@ class CompanyInfo(BaseModel):
 
 
 class ResearchState(BaseModel):
+    """Referenced object that will be updated throughout research session with user requests"""
     query: str
     extracted_tools: List[str] = []  # Tools extracted from articles
     companies: List[CompanyInfo] = []
