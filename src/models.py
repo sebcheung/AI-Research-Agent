@@ -13,6 +13,7 @@ class CompanyAnalysis(BaseModel):
 
 
 class CompanyInfo(BaseModel):
+    """Company info structure for LLM to read and store data into"""
     name: str
     description: str
     website: str
