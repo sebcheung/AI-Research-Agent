@@ -1,4 +1,4 @@
-# AI Research Agent
+# 🤖 AI Research Agent
 
 An autonomous AI-powered research assistant designed to gather, analyze, and summarize information from the web. The agent leverages **LangChain**, **LangGraph**, **Pydantic**, and **FireCrawl** along with **Large Language Models (LLMs)** to streamline the process of researching complex topics.
 
